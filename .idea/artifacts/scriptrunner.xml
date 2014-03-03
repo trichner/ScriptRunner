@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="scriptrunner">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="archive" name="scriptrunner.jar">
+      <element id="module-output" name="ScriptCommands" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
