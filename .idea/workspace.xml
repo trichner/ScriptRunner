@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d5c5f8-d8c6-4d3d-b056-a347ee0b9e19" name="Default" comment="" />
+    <list default="true" id="89d5c5f8-d8c6-4d3d-b056-a347ee0b9e19" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java" afterPath="$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" afterPath="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ScriptCommands.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,10 +111,10 @@
       <file leaf-file-name="ProcessWatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+            <state line="28" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding>
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +132,7 @@
       <file leaf-file-name="Minions.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="54" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.62333333" vertical-offset="51" max-vertical-offset="1224">
+            <state line="27" column="32" selection-start="833" selection-end="833" vertical-scroll-proportion="0.30222222" vertical-offset="34" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -160,6 +165,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -175,8 +183,8 @@
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/BlockingShCommand.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPlugin.java" />
-        <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/SimpleShCommand.java" />
+        <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java" />
       </list>
     </option>
@@ -187,7 +195,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -446,6 +454,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="89d5c5f8-d8c6-4d3d-b056-a347ee0b9e19" name="Default" comment="" />
@@ -456,7 +481,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -532,8 +557,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="42" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="765">
           <folding>
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,8 +612,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="66" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
           <folding>
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,22 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ExamplePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="30" selection-start="500" selection-end="500" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="459">
@@ -651,6 +660,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/SimpleShCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="23" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="13" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1462">
@@ -661,26 +687,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/SimpleShCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+        <state line="6" column="38" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ExamplePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+        <state line="12" column="28" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <folding>
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="54" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.62333333" vertical-offset="51" max-vertical-offset="1224">
+        <state line="27" column="32" selection-start="833" selection-end="833" vertical-scroll-proportion="0.30222222" vertical-offset="34" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>

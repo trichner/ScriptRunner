@@ -43,7 +43,6 @@ public class Minions {
             pb.directory(directory);
             pb.redirectErrorStream(true);
             pb.redirectOutput(ProcessBuilder.Redirect.appendTo(new File(directory.getAbsolutePath() + File.separator + "lastlog.txt")));
-            Bukkit.getLogger().info("starting process.");
             return pb.start();
         }else{
             throw new IllegalArgumentException("The script has an illegal filename. Allowed characters: [A-Za-z\\.\\-_0-9]");
