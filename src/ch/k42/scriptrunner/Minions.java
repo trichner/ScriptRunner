@@ -1,13 +1,10 @@
 package ch.k42.scriptrunner;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,6 +34,11 @@ public class Minions {
                 tmp[0] = "cmd";
                 tmp[1] = "/c";
                 System.arraycopy(args,0,tmp,2,args.length);
+                args = tmp;
+            }else if(isUnix()){ // FIXME this only works with bash...
+                String[] tmp = new String[args.length+1];
+                tmp[0] = "bash";
+                System.arraycopy(args,0,tmp,1,args.length);
                 args = tmp;
             }
             ProcessBuilder pb = new ProcessBuilder(args);

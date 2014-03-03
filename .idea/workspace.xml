@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d5c5f8-d8c6-4d3d-b056-a347ee0b9e19" name="Default" comment="">
+    <list default="true" id="89d5c5f8-d8c6-4d3d-b056-a347ee0b9e19" name="Default" comment="fixed output redirection&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/scriptrunner.jar" afterPath="$PROJECT_DIR$/bin/scriptrunner.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java" afterPath="$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" afterPath="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.yml" afterPath="$PROJECT_DIR$/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScriptCommands.iws" />
@@ -72,7 +73,7 @@
       <file leaf-file-name="ScriptPlugin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1462">
+            <state line="38" column="5" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1462">
               <folding>
                 <element signature="e#0#2639#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -81,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="plugin.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="500" selection-end="500" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="459">
+            <state line="5" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.09714286" vertical-offset="0" max-vertical-offset="875">
               <folding />
             </state>
           </provider>
@@ -111,10 +112,11 @@
       <file leaf-file-name="ProcessWatcher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+            <state line="27" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding>
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,11 +131,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Minions.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Minions.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="32" selection-start="833" selection-end="833" vertical-scroll-proportion="0.30222222" vertical-offset="34" max-vertical-offset="1207">
-              <folding />
+            <state line="25" column="22" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1394">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,12 +184,12 @@
         <option value="$PROJECT_DIR$/src/ch/k42/scriptcommands/ScriptPlugin.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ExamplePlugin.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPluginAPI.java" />
-        <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/BlockingShCommand.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPlugin.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/SimpleShCommand.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java" />
         <option value="$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java" />
+        <option value="$PROJECT_DIR$/plugin.yml" />
       </list>
     </option>
   </component>
@@ -477,6 +481,11 @@
       <created>1393800146286</created>
       <updated>1393800146286</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed output redirection">
+      <created>1393813540913</created>
+      <updated>1393813540913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,6 +529,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="fixed output redirection" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed output redirection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -557,8 +568,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="42" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="765">
           <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -573,7 +585,9 @@
     <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="75" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -612,8 +626,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="66" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
           <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,7 +643,9 @@
     <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="629">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,13 +659,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_09/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="252" column="26" selection-start="9273" selection-end="9273" vertical-scroll-proportion="0.0" vertical-offset="3457" max-vertical-offset="17187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="500" selection-end="500" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
@@ -669,20 +679,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ProcessWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+        <state line="27" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1462">
-          <folding>
-            <element signature="e#0#2639#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,9 +704,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/ScriptPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1462">
+          <folding>
+            <element signature="e#0#2639#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ch/k42/scriptrunner/Minions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="833" selection-end="833" vertical-scroll-proportion="0.30222222" vertical-offset="34" max-vertical-offset="1207">
+        <state line="25" column="22" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1394">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.09714286" vertical-offset="0" max-vertical-offset="875">
           <folding />
         </state>
       </provider>

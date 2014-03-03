@@ -2,7 +2,6 @@ package ch.k42.scriptrunner;
 
 import org.bukkit.Bukkit;
 
-import java.io.*;
 import java.util.Collections;
 import java.util.List;
 import java.util.Vector;
