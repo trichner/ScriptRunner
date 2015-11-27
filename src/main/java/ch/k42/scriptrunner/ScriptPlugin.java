@@ -18,7 +18,6 @@
 package ch.k42.scriptrunner;
 
 import org.bukkit.command.PluginCommand;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;
@@ -26,7 +25,6 @@ import java.io.IOException;
 
 public class ScriptPlugin extends JavaPlugin
 {
-	private Listener listener;                  // The listener
 
 	@Override
 	public void onEnable()
